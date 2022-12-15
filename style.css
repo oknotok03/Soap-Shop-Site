@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -19,6 +20,15 @@ h2{
     padding: 1rem;
 }
 
+.Soap {
+    max-width: 100%;
+    width: auto;
+}
+
+
+main p {
+    font-size: 2rem;
+}
 
 .links {
     background-color: #2f2409;
@@ -42,4 +52,11 @@ a {
 
 a:hover {
     color: darkblue;
+}
+
+footer {
+   position: relative;
+   bottom: 0%;
+   
+
 }
